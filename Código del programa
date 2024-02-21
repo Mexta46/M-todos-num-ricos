@@ -22,13 +22,13 @@ def bisection_method(func, a, b, error_percent):#Es el metodo que verifica la fu
         if func(c) == 0: #si esta llega a cero se detiene 
             break
         elif func(c) * func(a) < 0: #compara la multiplicación de la primera funcion intervalo por la funcion de x
-            b = c #si este es menor que x el intervalo menor valdra lo mismo que x
+            b = c #si este es menor que x el limite menor valdra lo mismo que x
         else:
-            a = c #si este es mayor que x el intervalo menor valdra lo mismo que x
+            a = c #si este es mayor que x el limite menor valdra lo mismo que x
         iter_count += 1
 
     root = (a + b) / 2 #obtiene la raiz o x
-    return round(root, 2) #retorna el valor de la raiz o x
+    return round(root, 2) #retorna el valor de la raiz o x, reduciendo el resultado a 2 cifras significativas depues del punto
 
 
 def main():
@@ -49,3 +49,4 @@ def main():
 #llama a la funcion principal donde se obtiene y se llaman las demas funciones solo si se ejecuta el script
 if __name__ == "__main__":
     main()
+
