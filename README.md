@@ -4,3 +4,11 @@ conocido también como de corte binario, de partición de intervalos o de Bolzan
 Los pasos para realizar el método de bisección esta en el siguiente diagrama:
 ### Diagrama de flujo
 [![Diagrama de método de bisección](https://drive.google.com/file/d/1fd_Iw6H35l_R5fmbTEGOioGTjV7njAfY/view?usp=drive_link "Diagrama de método de bisección")](https://drive.google.com/file/d/1fd_Iw6H35l_R5fmbTEGOioGTjV7njAfY/view?usp=drive_link "Diagrama de método de bisección")
+
+### Ejemplo en excel
+Obtener la raíz de la función f(x)=x^10-1.
+se obtiene la siguiente tabla en excel:
+[![Tabla de excel](https://drive.google.com/file/d/1PpvF_d5Y1ZhdfDkGCFmg1HjXjPXei_Ys/view?usp=sharing "Tabla de excel")](https://drive.google.com/file/d/1PpvF_d5Y1ZhdfDkGCFmg1HjXjPXei_Ys/view?usp=sharing "Tabla de excel")
+Para comprobar esto resultados se usa el metodo grafico que es graficar la función:
+[![Gafico](https://drive.google.com/file/d/1eYBuFTyhD7EZIwzqvnkQRUP8ja-tvU8T/view?usp=sharing "Gafico")](https://drive.google.com/file/d/1eYBuFTyhD7EZIwzqvnkQRUP8ja-tvU8T/view?usp=sharing "Gafico")
+En este grafico se puede apreciar de simple vista la raiz de la función.
